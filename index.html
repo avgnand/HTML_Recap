@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>HTML Recap</title>
 </head>
 <!-- Required elements: form, input, div, iframe, nav -->
 <body>
-    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#intro">Top</a>
+        <a href="#subscribe">Subscribe</a>
+        <a href="#about">About Us</a>
+    </nav>
+    <section id="intro">
+        <h1>What is git?</h1>
+        <p><i>(pronounced like "~get" in the word "target")</i></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, eveniet eius! Rem harum facere illum suscipit velit numquam incidunt voluptates mollitia? Suscipit expedita officiis assumenda eligendi harum, eveniet aspernatur est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus totam labore recusandae tenetur dolorum accusantium, neque praesentium animi nihil quia error consequatur sequi alias commodi minima vero, dolore quasi exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odit inventore vero facilis et voluptatem voluptates? Eveniet rerum rem impedit corporis minus corrupti fugiat deleniti aut ipsam esse! Quidem, ab.</p>
+    </section>
+    <section id="article-box">
+        <article>
+            <h2>An Overview of <strong>git</strong></h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hwP7WQkmECE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                As the video explains, we can use git to maintain our projects in such a way that we can revert to a previous state if the current state of the project(s) is buggy or any other reason there may be to roll back on changes made.
+            </p>
+            <footer id="article-footer">
+                <p>Video by channel <i>Fireship</i>.</p>
+                <p>YouTube 2022.</p>
+            </footer>
+        </article>
+    </section>
+    <section id="form-box">
+        <form action="" id="subscribe">
+            <p>Subscribe to our newsletter for more tutorials</p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="email_confirm">Confirm Email</label>
+            <input type="email" name="email_confirm" id="email_confirm">
+            <button type="submit">&Star;&Star;Subscribe&Star;&Star;</button>
+        </form>
+    </section>
+    <footer id="page-footer">
+        <p>A project page for CF course summer 2022.</p>
+    </footer>
 </body>
 </html>
